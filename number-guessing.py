@@ -5,7 +5,7 @@ upper_bound = 100
 secret_number = random.randint(0, upper_bound)
 
 print("Welcome to the number-guessing-game.")
-guess = int(input("Gebe hier eine Zahl zwischen 1 und 100 ein: "))
+guess = int(input("Enter a number between 1 and 100: "))
 
 def random_number():
     global guess2
